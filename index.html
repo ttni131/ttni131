@@ -1,1 +1,99 @@
 
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Metea | Portfolyo</title>
+    <style>
+        :root {
+            --bg: #0f172a;
+            --card-bg: #1e293b;
+            --accent: #38bdf8;
+            --text: #f1f5f9;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg);
+            color: var(--text);
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .container {
+            width: 90%;
+            max-width: 800px;
+            background: var(--card-bg);
+            padding: 2rem;
+            border-radius: 15px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+            border-left: 5px solid var(--accent);
+        }
+        h1 { color: var(--accent); margin-bottom: 0.5rem; }
+        .tagline { font-style: italic; color: #94a3b8; margin-bottom: 1.5rem; }
+        .section { margin-bottom: 1.5rem; }
+        h2 { border-bottom: 1px solid #334155; padding-bottom: 5px; }
+        .skills span {
+            background: var(--accent);
+            color: var(--bg);
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            font-weight: bold;
+            margin-right: 5px;
+            display: inline-block;
+            margin-top: 5px;
+        }
+        .project-card {
+            background: #334155;
+            padding: 10px;
+            border-radius: 8px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Metea</h1>
+    <p class="tagline">Yazılım Geliştirici & Game Developer</p>
+
+    <div class="section">
+        <h2>Hakkımda</h2>
+        <p>Ben Metea. Hem oyun dünyasında hem de yazılım geliştirme süreçlerinde aktif rol alan, teknik optimizasyon ve sistem yönetimi konularında deneyimli bir geliştiriciyim.</p>
+    </div>
+
+    <div class="section">
+        <h2>Yetenekler</h2>
+        <div class="skills">
+            <span>Python</span>
+            <span>Node.js</span>
+            <span>C#</span>
+            <span>Unity</span>
+            <span>Minecraft Modding</span>
+            <span>Luau</span>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Öne Çıkan Projeler</h2>
+        <div class="project-card">
+            <strong>Custom Minecraft Client</strong>
+            <p>Performans odaklı ve teknik modüllere sahip özel istemci projeleri.</p>
+        </div>
+        <div class="project-card">
+            <strong>Weapon Viewer Application</strong>
+            <p>Unity üzerinde geliştirilen, 3D model ve animasyon odaklı görselleştirme aracı.</p>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>İletişim</h2>
+        <p>Projelerim ve iş birlikleri için benimle iletişime geçebilirsiniz.</p>
+    </div>
+</div>
+
+</body>
+</html>
